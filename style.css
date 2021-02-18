@@ -7,7 +7,7 @@
 }
 
 .wrapper {
-    background: url('/Users/baidoolot/Desktop/IT-RUN/html_lesson/images/download.jpg');
+    background: url('images/download.jpg');
     background-size: cover;
     height: 120vh;
     width: 100%
