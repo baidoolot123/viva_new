@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     font-size: 30px;
-    color: red;
+    
 }
 
 .wrapper {
@@ -106,4 +106,20 @@
     color: rgb(8, 106, 55);
     border: none;
     border-radius: 15px;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.landing-card a {
+    background: aquamarine;
+}
+
+.second-row {
+    margin-top: 50px;
+}
+
+#info-img {
+    width: 100%;
 }
