@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    color: red;
+}
+
+.wrapper {
+    background: url('/Users/baidoolot/Desktop/IT-RUN/html_lesson/images/download.jpg');
+    background-size: cover;
+    height: 120vh;
+    width: 100%
+}
+
+.navbar {
+    position: fixed;
+    top:0;
+    left:0;
+    height: 80px;
+    width: 100%;
+    background: rgba(112, 187, 157, 0.687);
+    
+}
+
+.logo {
+    width: 140px;
+    height: auto;
+    padding-left: 0px;
+    padding-top: 0px;
+} 
+
+.navbar ul {
+    float: right;
+    margin-right: 20px;
+    
+
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    line-height: 80px;
+    margin-top: 0;
+    margin-right: 8px;
+
+
+
+}
+
+.navbar ul li a {
+    text-decoration: None;
+    font-size: 20px;
+    color: rgb(254, 254, 254); 
+    font-family: 'Roboto';
+    padding: 6px 13px;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover {
+    background: rgb(84, 59, 59);
+    border-radius: 5px;
+
+}
+
+.center {
+    position: absolute;
+    top: 45%;
+    left: 55%; 
+    transform: translate(-55%, -50%);
+    font-family: sans-serif;
+}
+
+.center h1 {
+    color: rgb(160, 160, 119);
+    text-align: center;
+    width: 900px;
+    font-weight: bold;
+    font-size: 40px;
+    top: 45%;
+    left: 55%
+    
+}
+
+.center h2 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.button {
+    display: inline;
+    float: right;
+    margin-right: 290px;
+}
+
+.btn {
+    color: rgb(8, 106, 55);
+    border: none;
+    border-radius: 15px;
+}
+
+.btn2 {
+    color: rgb(8, 106, 55);
+    border: none;
+    border-radius: 15px;
+}
