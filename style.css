@@ -25,16 +25,13 @@
 
 .logo {
     width: 140px;
-    height: auto;
-    padding-left: 0px;
-    padding-top: 0px;
+    margin-top: -50px;
 } 
 
 .navbar ul {
     float: right;
     margin-right: 20px;
-    
-
+    margin-top: -20px;
 }
 
 .navbar ul li {
@@ -43,9 +40,6 @@
     line-height: 80px;
     margin-top: 0;
     margin-right: 8px;
-
-
-
 }
 
 .navbar ul li a {
@@ -60,7 +54,6 @@
 .navbar ul li a:hover {
     background: rgb(84, 59, 59);
     border-radius: 5px;
-
 }
 
 .center {
@@ -78,16 +71,14 @@
     font-weight: bold;
     font-size: 40px;
     top: 45%;
-    left: 55%
-    
+    left: 55%   
 }
 
 .center h2 {
     color: white;
     text-align: center;
     font-size: 30px;
-    font-weight: bold;
-    
+    font-weight: bold;   
 }
 
 .button {
@@ -100,12 +91,19 @@
     color: rgb(8, 106, 55);
     border: none;
     border-radius: 15px;
+    background-color: rgb(215, 210, 210);
+    padding: 1px 6px;
+    
+    
+    
 }
 
 .btn2 {
     color: rgb(8, 106, 55);
     border: none;
     border-radius: 15px;
+    background-color: rgb(215, 210, 210);
+    padding: 1px 6px;
 }
 
 .container {
@@ -123,3 +121,4 @@
 #info-img {
     width: 100%;
 }
+
